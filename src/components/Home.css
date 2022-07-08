@@ -1,4 +1,3 @@
-
 .banner .bg1 {
     position: relative;
     width: 100%;
@@ -37,7 +36,7 @@
 }
 
 .banner .content h2 {
-    
+
     font-size: 26px;
     color: #ffffff;
     font-weight: 700;
@@ -49,12 +48,29 @@
     font-family: "Raleway";
 }
 
+.whoAreWe img {
+    width: 80%;
+}
+
+.whoAreWe strong {
+    color: #0e66f9;
+}
+
+.whoAreWe h2 {
+    width: 450px;
+    color: #ffffff;
+}
+
+.whoAreWe p {
+    width: 450px;
+    color: #ffffff;
+}
 
 /* Mobile View */
 
 @media screen and (max-width:940px) {
     .banner .bg1 {
-        position: absolute;
+        position: relative;
         width: 100% !important;
         height: 105vh;
         z-index: 1;
@@ -89,6 +105,27 @@
         padding-top: 40%;
         padding-left: 15px;
     }
+
+ 
+    .whoAreWe img {
+        width: 100%;
+    }
+
+    .whoAreWe strong {
+        text-align: center;
+        color: #0e66f9;
+    }
+
+    .whoAreWe h2 {
+        width: 100%;
+        color: #ffffff;
+    }
+
+    .whoAreWe p {
+        width: 100%;
+        color: #ffffff;
+    }
+
 
 
 }
