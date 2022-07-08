@@ -1,0 +1,94 @@
+
+.banner .bg1 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner .bg2 {
+    position: absolute;
+    height: 700px;
+    top: 15%;
+    right: 0px;
+    float: right;
+    z-index: 2;
+}
+
+.banner .bg3 {
+    z-index: 3;
+    position: absolute;
+    right: 25px;
+    top: 100px;
+    height: 750px;
+}
+
+.banner .content {
+    z-index: 10;
+    position: absolute;
+    left: 50px;
+    top: 40%
+}
+
+.banner .content strong {
+    font-size: 18px;
+    color: #0e66f9;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.banner .content h2 {
+    
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.banner .content p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+
+
+/* Mobile View */
+
+@media screen and (max-width:940px) {
+    .banner .bg1 {
+        position: absolute;
+        width: 100% !important;
+        height: 105vh;
+        z-index: 1;
+    }
+
+    .banner .bg2 {
+        position: absolute;
+        height: 300px;
+        width: 200px;
+        top: 25%;
+        right: 50px;
+        z-index: 2;
+    }
+
+    .banner .bg3 {
+        display: none;
+        z-index: 3;
+        position: absolute;
+        right: 25px;
+        top: 100px;
+        height: 500px;
+
+    }
+
+    .banner .content {
+        width: 100% !important;
+        height: 100vh;
+        z-index: 10 !important;
+        left: 0;
+        top: 0;
+        position: absolute;
+        padding-top: 40%;
+        padding-left: 15px;
+    }
+
+
+}
