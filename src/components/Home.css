@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
 .banner .bg1 {
     position: relative;
     width: 100%;
@@ -22,6 +24,7 @@
 }
 
 .banner .content {
+    
     z-index: 10;
     position: absolute;
     left: 50px;
@@ -40,6 +43,7 @@
     font-size: 26px;
     color: #ffffff;
     font-weight: 700;
+    font-family: 'Raleway';
 }
 
 .banner .content p {
@@ -48,22 +52,45 @@
     font-family: "Raleway";
 }
 
+.banner .content .btn{
+    font-size: 12px;
+line-height: 50px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Raleway";
+}
+
 .whoAreWe img {
     width: 80%;
 }
 
 .whoAreWe strong {
     color: #0e66f9;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: right;
 }
 
 .whoAreWe h2 {
     width: 450px;
+
     color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
 }
 
 .whoAreWe p {
     width: 450px;
+    line-height: 20px;
     color: #ffffff;
+    font-family: "Raleway";
+}
+
+.whoAreWe .btn{
+
+color: #ffffff;
+font-weight: 600;
+font-family: "Raleway";
 }
 
 /* Mobile View */
@@ -106,7 +133,7 @@
         padding-left: 15px;
     }
 
- 
+
     .whoAreWe img {
         width: 100%;
     }
